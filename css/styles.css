@@ -1,6 +1,45 @@
+.container{
+	margin: auto;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
 header {
 	background-color: black;
 	text-align: center;
 	color: green;
+	margin: 0;
+	width: 100%;
+	display: block;
+}
 
+body {
+	margin: auto;
+	width: 100%;
+	display: block;
+}
+
+h1 {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+em {
+	display: inline-block;
+	vertical-align: middle;
+}
+.instructions-wrapper{
+	border: .5em black solid;
+}
+
+img[alt*="jane"] {
+
+	height: 10em;
+	width: 10em;
+}
+
+.instructions-content{
+	text-align: left;
+	float: left;
 }
