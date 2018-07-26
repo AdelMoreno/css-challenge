@@ -6,9 +6,9 @@
 }
 
 header {
-	background-color: black;
+	background-color: #302f2f;
 	text-align: center;
-	color: green;
+	color: #39ff14;
 	margin: 0;
 	width: 100%;
 	display: block;
@@ -30,16 +30,47 @@ em {
 	vertical-align: middle;
 }
 .instructions-wrapper{
-	border: .5em black solid;
+	border: .25em black solid;
+	margin-left: 10em;
 }
 
 img[alt*="jane"] {
 
 	height: 10em;
-	width: 10em;
+	width: 12em;
+	padding-top: .5em;
 }
 
 .instructions-content{
 	text-align: left;
 	float: left;
+	padding-left: 1em;
+
+}
+
+.about-me {
+	background-color: blue;
+	padding: 5em;
+	margin-top: 2em;
+	color: white;
+}
+
+img[alt*="picard"]{
+	float: left;
+	height: 15em;
+	width: 18em;
+	padding-right: 2em;
+}
+
+p{
+	color: white;
+}
+
+span{
+	color: yellow;
+	font-style: italic;
+}
+
+table{
+	vertical-align: before-edge;
 }
