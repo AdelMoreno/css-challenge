@@ -84,8 +84,8 @@
 			</section>
 
 			<!-- CONTACT FORM -->
-			<section class="2">
-				<div class="container2">
+			<section class="contact">
+				<div class="containercontact">
 					<div class="form-wrapper">
 						<h2>Contact Me! I <3 to fix printers!</h2>
 						<form>

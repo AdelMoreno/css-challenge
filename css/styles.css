@@ -84,8 +84,6 @@ html, body {
 	clear: both;
 }
 
-
-
 html { display: flex;}
 body { width: 100%; background-color: #232323}
 
@@ -128,6 +126,10 @@ h1 {
 	display: inline-block;
 }
 
+em {
+	font-size: .7em;
+	horiz-align: right;
+}
 
 .instructions-wrapper{
 	border: .25em black solid;
@@ -190,6 +192,11 @@ span{
 	font-style: italic;
 }
 
+#skills{
+	text-align: right;
+	padding-top: 1.5em;
+}
+
 table {
 	display: block;
 	text-align: left;
@@ -236,7 +243,8 @@ tr {
 	border: .25em white solid;
 }
 
-div[class*="container2"]{
+
+div[class*="containercontact"]{
 	background-color:  #302f2f;
 	margin: 0;
 	padding: 2rem 6rem;
@@ -251,6 +259,20 @@ div[class*="form-wrapper"]{
 	margin: 0;
 }
 
+label{
+	display: block;
+}
+
+input{
+	display: block;
+}
+
+button {
+	border: none;
+	background-color: #39ff14;
+	font-weight: bold;
+}
+
 footer {
 	color: white;
 	text-align: center;
@@ -260,30 +282,8 @@ footer {
 	width: 100%;
 }
 
-label{
-	display: block;
-}
 
-input{
-	display: block;
-}
 
-section[class*="2"]{
-	padding-bottom: 0;
-}
 
-em {
-	font-size: .7em;
-	horiz-align: right;
-}
 
-#skills{
-	text-align: right;
-	padding-top: 1.5em;
-}
 
-button {
-	border: none;
-	background-color: #39ff14;
-	font-weight: bold;
-}
