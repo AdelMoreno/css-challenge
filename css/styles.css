@@ -112,7 +112,6 @@ img[alt*="welcome"]{
 
 header {
 	background-color: #302f2f;
-	text-align: center;
 	color: #39ff14;
 	margin: 0;
 	width: 100%;
@@ -121,12 +120,12 @@ header {
 	border-collapse: collapse;
 	font-family: Arial, sans-serif;
 	letter-spacing: .1em;
+	padding-left: 1em;
 }
 
 
 h1 {
 	display: inline-block;
-	vertical-align: middle;
 }
 
 
@@ -280,6 +279,7 @@ em {
 
 #skills{
 	text-align: right;
+	padding-top: 1.5em;
 }
 
 button {
