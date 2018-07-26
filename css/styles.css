@@ -1,8 +1,7 @@
-.container{
+img[alt*="welcome"]{
+	vertical-align: middle;
 	margin: auto;
-	width: 100%;
 	display: block;
-	text-align: center;
 }
 
 header {
@@ -38,19 +37,23 @@ img[alt*="jane"] {
 
 	height: 10em;
 	width: 12em;
-	padding-top: .5em;
+	padding-top: .45em;
+	padding-left: 20em;
 }
 
 .instructions-content{
 	text-align: left;
 	float: left;
 	padding-left: 1em;
+}
 
+.instructions-content > h2 {
+	padding-left: 1em;
 }
 
 .about-me {
 	background-color: blue;
-	padding: 5em;
+	padding: 2.5em 5em 5em 5em;
 	margin-top: 2em;
 	color: white;
 }
@@ -71,6 +74,43 @@ span{
 	font-style: italic;
 }
 
-table{
-	vertical-align: before-edge;
+table {
+	margin-left: 15em;
+	display: block;
+	text-align: left;
+	background-color: #302f2f;
+	color: #39ff14;
+	border-spacing: 1em;
+	border-collapse: collapse;
+	border:.25em white solid;
+}
+
+.container > h2 {
+	text-align: center;
+}
+
+td {
+	padding-right: 10em;
+	width: 14em;
+	border-spacing: 1em;
+	border-collapse: separate;
+	border: .25em white solid;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+th{
+	padding-right: 10em;
+	width: 14em;
+	border-spacing: 1em;
+	border-collapse: separate;
+	border: .25em white solid;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+tr{
+	border-spacing: 1em;
+	border-collapse: separate;
+	border: .25em white solid;
 }
